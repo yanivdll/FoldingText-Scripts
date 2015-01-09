@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMApplicationBuild</key>
+	<string>409</string>
+	<key>AMApplicationVersion</key>
+	<string>2.5</string>
+	<key>AMDocumentVersion</key>
+	<string>2</string>
+	<key>actions</key>
+	<array>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMActionVersion</key>
+				<string>1.2.1</string>
+				<key>AMApplication</key>
+				<array>
+					<string>TextEdit</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>enteredRTFDText</key>
+					<dict/>
+					<key>enteredText</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>Single</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.attributed-string</string>
+					</array>
+				</dict>
+				<key>AMRequiredResources</key>
+				<array/>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Get Specified Text.action</string>
+				<key>ActionName</key>
+				<string>Get Specified Text</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>enteredRTFDData</key>
+					<data>
+					cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRm
+					AQAAAC5CAQAAKwAAAAEAAAA6AQAAe1xydGYx
+					XGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYx
+					MzQzXGNvY29hc3VicnRmMTYwCntcZm9udHRi
+					bFxmMFxmc3dpc3NcZmNoYXJzZXQwIEhlbHZl
+					dGljYTt9CntcY29sb3J0Ymw7XHJlZDI1NVxn
+					cmVlbjI1NVxibHVlMjU1O30KXHBhcmRcdHg1
+					NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgy
+					ODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4
+					NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxw
+					YXJkaXJuYXR1cmFsCgpcZjBcZnMyNCBcY2Yw
+					IEVudGl0eSxGdW5jdGlvbiBcClJlY29tbWVu
+					ZGF0aW9uLCBSZWFkLCBVcGRhdGVcClVzZXIs
+					IFJlYWQtb25seX0BAAAAIwAAAAEAAAAHAAAA
+					VFhULnJ0ZhAAAAC26q5UtgEAAAAAAAAAAAAA
+					</data>
+					<key>enteredRTFDText</key>
+					<string></string>
+					<key>enteredText</key>
+					<string>Entity,Function 
+Recommendation, Read, Update
+User, Read-only</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.GetSpecifiedText</string>
+				<key>CFBundleVersion</key>
+				<string>1.2.1</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryText</string>
+				</array>
+				<key>Class Name</key>
+				<string>AMGetSpecifiedTextAction</string>
+				<key>Keywords</key>
+				<array>
+					<string>Get</string>
+					<string>Text</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>ED28BDB2-C7CE-4202-99D8-B0F56D3525E1</string>
+				<key>StartAction</key>
+				<false/>
+				<key>UUID</key>
+				<string>435D31B2-BD39-4B46-9A41-A9243EAA174B</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>TextEdit</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>enteredRTFDText</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+					<key>1</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>enteredText</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>1</string>
+					</dict>
+				</dict>
+				<key>conversionLabel</key>
+				<integer>0</integer>
+				<key>isViewVisible</key>
+				<false/>
+				<key>location</key>
+				<string>529.000000:112.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Get Specified Text.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.object</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>source</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.object</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Run AppleScript.action</string>
+				<key>ActionName</key>
+				<string>Run AppleScript</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>source</key>
+					<string>on run {input, parameters}		--turn the input into a list to loop over it	set rows_list to paragraphs of (input as text)	set header_row to (item 1 of rows_list)	set columns_num to 0	set rows_num to 0	set seperator to "" as string		-- set the number of rows for the table	set rows_num to count of rows_list	log rows_num		--iterate through the first item in theTableRorws to count the "," and replace them with |	repeat with i from 1 to (count characters in header_row) by 1		if character i of header_row is equal to "," then			set columns_num to columns_num + 1		end if	end repeat		if columns_num ≥ 1 then		-- Replace the "," delimiters with the markdown "|" column delimiter		repeat with i from 1 to rows_num by 1			set (rows_list's item i) to replace(",", " |", (rows_list's item i))			set (rows_list's item i) to "|" &amp; (rows_list's item i) &amp; "|"		end repeat				if rows_num ≥ 1 then			repeat with i from 1 to rows_num by 1				set seperator to "|:--" &amp; seperator			end repeat			set seperator to seperator &amp; "|"		end if		log seperator		set rows_list to insert_listitem(rows_list, seperator, 2)			end if		--Insert the row seperating between the header and the table content			return rows_list	end run--Credit to Pierre L. https://discussions.apple.com/thread/4588230?tstart=0on replace(A, B, theText)	set L to length of A	set K to L - 1	set P to offset of A in theText	repeat until P = 0		if P = 1 then			set theText to B &amp; text (L + 1) through -1 of theText		else if P = (length of theText) - K then			set theText to text 1 through -(L + 1) of theText &amp; B		else			set theText to text 1 through (P - 1) of theText &amp; B &amp; text (P + L) through -1 of theText		end if		set P to offset of A in theText	end repeat	return theTextend replace--Credit to AppleScript http://www.macosxautomation.com/applescript/sbrt/sbrt-07.html on insert_listitem(this_list, this_item, list_position)	set the list_count to the count of this_list	-- THE LIST POSITION INDICATES THE POSITION IN THE LIST 	-- YOU WANT THE ADDED ITEM TO OCCUPY	if the list_position is 0 then		return false	else if the list_position is less than 0 then		if (the list_position * -1) is greater than the list_count + 1 then ¬			return false	else		if the list_position is greater than the list_count + 1 then return false	end if	if the list_position is less than 0 then		if (the list_position * -1) is the list_count + 1 then			set the beginning of this_list to this_item		else			set this_list to the reverse of this_list			set the list_position to (list_position * -1)			set this_list to (items 1 thru (list_position - 1) of this_list) &amp; ¬				this_item &amp; (items list_position thru -1 of this_list)			set this_list to the reverse of this_list		end if	else		if the list_position is 1 then			set the beginning of this_list to this_item		else if the list_position is (the list_count + 1) then			set the end of this_list to this_item		else			set this_list to (items 1 thru (list_position - 1) of this_list) &amp; ¬				this_item &amp; (items list_position thru -1 of this_list)		end if	end if	return this_listend insert_listitem</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.RunScript</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.2</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>RunScriptAction</string>
+				<key>InputUUID</key>
+				<string>11053969-8610-438F-B0DA-6B29F5B6DA8C</string>
+				<key>Keywords</key>
+				<array>
+					<string>Run</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>E3D5B6A6-224A-479E-935E-195EE2B5CBB1</string>
+				<key>ShowWhenRun</key>
+				<false/>
+				<key>UUID</key>
+				<string>115FBA5B-53E7-4242-83D4-7EB34436AB78</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string>on run {input, parameters}
+	
+	(* Your script goes here *)
+	
+	return input
+end run</string>
+						<key>name</key>
+						<string>source</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>529.000000:1039.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+	</array>
+	<key>connectors</key>
+	<dict>
+		<key>B1E092A3-7845-4076-BE69-5A221204DCEB</key>
+		<dict>
+			<key>from</key>
+			<string>435D31B2-BD39-4B46-9A41-A9243EAA174B - 435D31B2-BD39-4B46-9A41-A9243EAA174B</string>
+			<key>to</key>
+			<string>115FBA5B-53E7-4242-83D4-7EB34436AB78 - 115FBA5B-53E7-4242-83D4-7EB34436AB78</string>
+		</dict>
+	</dict>
+	<key>variables</key>
+	<array>
+		<dict>
+			<key>UUID</key>
+			<string>9EC08C77-4672-4B98-A499-4403E0E7774F</string>
+			<key>identifier</key>
+			<string>com.apple.Automator.Variable.Storage</string>
+			<key>name</key>
+			<string>Input</string>
+		</dict>
+		<dict>
+			<key>UUID</key>
+			<string>0095D47B-4348-47D2-B3A3-E23B103AF173</string>
+			<key>identifier</key>
+			<string>com.apple.Automator.Variable.Storage</string>
+			<key>name</key>
+			<string>Storage</string>
+		</dict>
+		<dict>
+			<key>UUID</key>
+			<string>2CA28600-DB48-461A-A6D3-A578D8C45007</string>
+			<key>identifier</key>
+			<string>com.apple.Automator.Variable.Storage</string>
+			<key>name</key>
+			<string>Output</string>
+		</dict>
+	</array>
+	<key>workflowMetaData</key>
+	<dict>
+		<key>serviceInputTypeIdentifier</key>
+		<string>com.apple.Automator.nothing</string>
+		<key>serviceOutputTypeIdentifier</key>
+		<string>com.apple.Automator.text</string>
+		<key>serviceProcessesInput</key>
+		<integer>0</integer>
+		<key>workflowTypeIdentifier</key>
+		<string>com.apple.Automator.servicesMenu</string>
+	</dict>
+</dict>
+</plist>
